@@ -3,8 +3,6 @@
 name: cleanup-workflow-runs
 
 on:
-  schedule:
-    - cron: "0 0 * * *" # GMT
   workflow_dispatch:
 
 jobs:
